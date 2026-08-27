@@ -5,4 +5,4 @@ After configuration, a START pulse loads the preload value into the counter. The
 
 This complete sequence "Preload -> Upper Limit -> Lower Limit -> Preload" is considered one cycle. The programmed Cycle Count Register determines how many such cycles are performed. After the required number of cycles, the ec (end-cycle) signal is asserted and counting stops.
 
-The design also includes error detection, which checks whether the preload value lies outside the programmed counting range. If Preload < Lower Limit or Preload > Upper Limit, the err flag is asserted.
+The design also includes error detection, which checks whether the preload value lies outside the programmed counting range. If Preload < Lower-Limit or Preload > Upper Limit, the err flag is asserted.
