@@ -1,5 +1,3 @@
-# custom-Up-down-counter
-Designed an 8-bit programmable Up-Down Counter in Verilog with configurable preload, upper/lower limits, and cycle count. Implemented automatic direction control, start operation, register read/write control, cycle completion, and error detection for invalid counter configurations.
 **UDC Project — Working Principle:**
 My project is an 8-bit programmable Up-Down Counter implemented in Verilog. The counter is configured through four registers: Preload, Upper Limit, Lower Limit, and Cycle Count. The registers are selected using A1:A0 and programmed through the Din bus using the active-low ncs and nwr signals.
 
